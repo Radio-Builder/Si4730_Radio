@@ -47,9 +47,7 @@ void setupSwitches(void)
 }
 
 //------------------------------- Si4735 Init ------------------------------//
-#define START_FREQUENCY 89.1
 #define RESET_PIN 13
-#define AM_FUNCTION 1
 #define FM_FUNCTION 0
 
 uint16_t currentFrequency = 8910;
